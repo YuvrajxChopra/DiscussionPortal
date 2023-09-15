@@ -7,10 +7,11 @@
 .nav {
     background-color: rgb(0, 165, 130);
     height: 10%;
-    position: fixed;
+    position: relative;
     width: 100%;
     right: 0;
     top: 0;
+    padding-bottom: 2%;
 }
 
 .nav h2 {
@@ -23,7 +24,7 @@
     display: flex;
     justify-content: left;
     justify-items: left;
-    margin-top: 7.5%;
+    margin-top: 1%;
     margin-right: -20px;
     max-width: 100%;
     max-height: 100%;
@@ -125,6 +126,8 @@ textarea {
     border-bottom: 0.5px solid gray;
     cursor: pointer;
     user-select: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .ques-div {
@@ -189,4 +192,22 @@ h4 {
     font-weight: bold;
     font-size: x-small;
     display: none;
+}
+
+.posted-on{
+    color: white;
+    border-radius: 25px;
+    padding: 5%;
+    background-color: gray;
+    font-size: smaller;
+    min-width: 60%;
+}
+
+.time-likes-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnsdiv{
+    min-width: 45%;
 }
